@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-    max-width: 1540px; 
 }
 
 body {
@@ -70,13 +69,11 @@ a {
 .container1 {
     float: left;
     margin-left: 15.3rem; 
-    
 }
 
 .container2{
     float: left;
-    margin-left: 1.8rem;
-    
+    margin-left: 1.8rem;   
 }
 
 .container3{
@@ -88,6 +85,7 @@ a {
     float: left;
     margin-left: 15.3rem;   
 }
+
 .container5{
     float: left;
     margin-left: 1.8rem;  
