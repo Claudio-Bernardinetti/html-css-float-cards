@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif; 
+}
+
+:root {
+    --bool-white: #fffffe;
+    --bool-black:#0f0e17;
+    --bool-purple:#e53170;
+    --bool-blue:#37a4d0;
+}
+/*Utilitis*/
+
+h1 {
+    color: var(--bool-purple);
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.12rem;
+}
+/*Header */
