@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif; 
+    font-family: 'Fredoka', sans-serif;
+    max-width: 1540px; 
+}
+
+body {
+    min-width: 1540px;  
 }
 
 :root {
@@ -30,7 +35,9 @@ p {
 .container_top {
     height: 5.95rem;
     margin-top: 3rem; 
+    
 }
+
 .container_bottom {
     height: 5.95rem;
     margin-top: 3rem; 
@@ -40,6 +47,7 @@ p {
     width: 20.6rem;
     height: 5.95rem;
     background-color: var(--bool-black);
+    box-shadow: 0 0 1rem 3px rgb(49, 42, 42);
 }
 
 img {
@@ -61,12 +69,14 @@ a {
 
 .container1 {
     float: left;
-    margin-left: 15.3rem;
+    margin-left: 15.3rem; 
+    
 }
 
 .container2{
     float: left;
     margin-left: 1.8rem;
+    
 }
 
 .container3{
